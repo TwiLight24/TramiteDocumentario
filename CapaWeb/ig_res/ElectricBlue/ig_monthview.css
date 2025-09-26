@@ -1,0 +1,291 @@
+.igmv_ElectricBlueControl
+{
+	border:solid 1px #052684;
+	overflow: auto;
+}
+
+
+.igmv_ElectricBlueCaptionHeader
+{
+	background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:8pt;
+	border:solid 1px #052684;
+	border-right-width:0px;
+	border-left-width:0px;
+	line-height: 16pt;
+	color:White;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueDayHeader
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	font-weight:bold;
+	font-size:8pt;
+	border:solid 1px #052684;
+	border-right-width:0px;
+	padding:3px;
+	height: 1%;
+	color:#052684;
+	vertical-align:middle;
+}
+
+
+.igmv_ElectricBlueDay
+{
+	background-color:White;
+	border-left:solid 1px #052684;
+	cursor:hand;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	margin:1px;
+	padding:3px;
+	overflow: hidden;
+	cursor:hand;
+	text-align:left;
+}
+
+
+.igmv_ElectricBlueAllDayEvent
+{
+	background-color:WhiteSmoke;
+	font-size:8pt;
+	border:solid 1px #C0C0C0;
+	margin:1px;
+	padding:3px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	width: 20px;
+	cursor:pointer;
+}
+
+
+.igmv_ElectricBlueMultiDayEventArrowLeft
+{
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igws_arrowleft.gif);
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+}
+
+
+.igmv_ElectricBlueMultiDayEventArrowRight
+{
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igws_arrowright.gif);
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+}
+
+
+.igmv_ElectricBlueResource
+{
+}
+
+
+.igmv_ElectricBlueResourceButton
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	font-size:8pt;
+	border-width:0px;
+	border-right:solid 1px #052684;
+	border-bottom:solid 1px #052684;
+	padding:4px;
+	color:White;
+}
+
+
+.igmv_ElectricBlueResourceButtonActive
+{
+}
+
+
+.igmv_ElectricBlueFadedAppointment
+{
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+.igmv_ElectricBlueWeekNumber
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/bg_top.gif);
+	font-size:8pt;
+	border-right:solid 1px #052684;
+	border-bottom:solid 1px #052684;
+	width: 30px;
+	color:#052684;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igmv_ElectricBlueCompressedDay
+{
+	border-left:solid 1px #052684;
+	vertical-align:top;
+}
+
+
+tr.igmv_ElectricBlueCaptionHeader td.igmv_ElectricBlueWeekNumber
+{
+	background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header.gif);
+	border-width:0px;
+	text-align:left;
+}
+
+
+.igmv_ElectricBlueMonthDayOfWeekHeader
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_hover.gif);
+	font-size:8pt;
+	border:solid 1px #052684;
+	border-right-width:0px;
+	padding:3px;
+	height: 1%;
+	color:White;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueOtherMonthDayHeader
+{
+	background-color:#E7EDF6;
+	background-image:none;
+	border:solid 1px #052684;
+	border-right-width:0px;
+	padding:3px;
+	height: 1%;
+	vertical-align:middle;
+}
+
+
+.igmv_ElectricBlueOtherMonthDay
+{
+	background-color:#F4F7FB;
+	border-left:solid 1px #052684;
+	cursor:pointer;
+	color:Black;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueOtherCompressedDay
+{
+	background-color:#F4F7FB;
+	border-left:solid 1px #052684;
+	vertical-align:top;
+}
+
+
+.igmv_ElectricBlueTodayHeader
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_hover.gif);
+	color:White;
+}
+
+
+.igmv_ElectricBlueToday
+{
+}
+
+
+.igmv_ElectricBlueSelectedAppointment
+{
+	background-color:#2482BA;
+	font-size:8pt;
+	border:solid 1px #052684;
+	margin:1px;
+	padding:3px;
+	white-space: nowrap;
+	overflow: hidden;
+	color:White;
+	text-align:center;
+}
+
+
+.igmv_ElectricBlueActiveDayHeader
+{
+}
+
+
+.igmv_ElectricBlueActiveDay
+{
+	background-image:none;
+}
+
+
+.igmv_ElectricBlueNavigationButtonNext
+{
+	margin-right:3px;
+}
+
+
+.igmv_ElectricBlueResourceButton hover
+{
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}
+
+
+.igmv_ElectricBlueResourceButton focus, .igmv_ElectricBlueResourceButtonActive
+{
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}
+
+
+.igmv_ElectricBlueControl table
+{
+	border-collapse:Collapse;
+}
+
+
+.igmv_ElectricBlueNavigationButtonPrev
+{
+	margin-left:3px;
+}
+
+

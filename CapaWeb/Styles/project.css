@@ -1,0 +1,160 @@
+﻿body, html 
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+html { height: 100%; }
+
+#MyMailUpdatePanel { width: 100%; height: 100%; }
+
+.emailClientBody
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/mailLogo_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 95% 100%;
+}
+.emailClientNavigation
+{
+	clear:both;
+	position: relative;
+	top: 0px;
+	left: 2px;
+	float: left;
+	width: 178px;
+	background-color: #F3F9F3;
+	border: 1px solid #ABD3CB;
+	height: 100% !important;
+}
+.projectClientMain
+{
+	width: 99% !important;
+	position:absolute;
+	top: 0px;
+	left: 4px;	
+	padding: 110px 0px 0px 0px;
+	margin: 0px 5px 0px 0px;
+	float: left;
+	
+}
+
+.logoMain
+{
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.logoMain3
+{
+	position: relative;
+	left: 200px;
+	top: 0px;
+}
+
+.logoMain2
+{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float: left;
+}
+#logoBGDIV
+{
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	height: 59px;
+	width: 100%;
+	background-image: url(../images/myMail_topbg.jpg);
+	background-repeat: repeat-x;
+}
+#logoBGDIV2
+{
+	position: relative;
+	z-index: 1;	
+	left: 0px;
+	top: 0px;
+	height: 59px;
+	width: 100%;
+	background-image: url(../images/myMail_topbg.jpg);
+	background-repeat: repeat-x;
+}
+#navbarBGDIV
+{
+	position: relative;
+	z-index: 1;	
+	left: 0px;
+	top: 0px;
+	height: 45px;
+	width: 100%;
+	background-image: url(../images/navHeaderBg.jpg);
+	background-repeat: repeat-x;
+}
+
+#rightCorner
+{
+	position: relative;
+	float: right;
+}
+
+.sampleTitle
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#navToolBar
+{
+	position: relative;
+	z-index: 1;
+	float: left;
+	margin-left: 10px;
+	padding-top: 15px;
+}
+#navToolBar ul{
+	position: relative;
+	z-index: 1;	
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navToolBar ul li{
+	position: relative;
+	z-index: 1;	
+	display: inline;
+	float: left;
+	width: 80px;
+	height: 16px;
+	font-size: 10px;
+	font-family: Verdana;
+}
+
+
+#navToolBar ul li a 
+{
+	z-index: 1;	
+	text-decoration: none;
+	color: #000000;
+}
+
+#navToolBar ul li a:hover
+{
+	z-index: 1;	
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+img { border: 0px; }
+
+.clear { clear: both; display: inline-block; width: 1px; height: 1px; font-size: 1px; }

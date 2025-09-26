@@ -1,0 +1,20 @@
+BODY {
+	SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS; SCROLLBAR-HIGHLIGHT-COLOR: #ccc; SCROLLBAR-SHADOW-COLOR: #f6f6f6; FONT-SIZE: 11px; SCROLLBAR-TRACK-COLOR: #e5e5e5; SCROLLBAR-3DLIGHT-COLOR: #ffffff; scrollbar-drakshadow-color: #000000
+}
+#table-border_login_cabecera {
+		 BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: gray 1px solid; BACKGROUND-COLOR: white; HEIGHT: 116px; BORDER-TOP: gray 1px solid; BORDER-RIGHT: gray 1px solid
+}
+#table-border_login {
+		/*BACKGROUND-IMAGE: url(../images/degradeVerde.jpg);BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: gray 1px solid; BACKGROUND-COLOR: white; HEIGHT: 116px; BORDER-TOP: gray 1px solid; BORDER-RIGHT: gray 1px solid*/
+}
+#fondo-td-master {
+	BACKGROUND-COLOR: #82373e
+}
+#footer {
+	/*BACKGROUND-IMAGE: url(../images/degradeVerde.jpg);font-weight:bold;*/
+}
+INPUT {
+	BORDER-BOTTOM: gray 1px solid; BORDER-LEFT: gray 1px solid; FONT-STYLE: normal; FONT-FAMILY: Trebuchet MS; FONT-SIZE: 11px; BORDER-TOP: gray 1px solid; BORDER-RIGHT: gray 1px solid
+}
+ 
+ 

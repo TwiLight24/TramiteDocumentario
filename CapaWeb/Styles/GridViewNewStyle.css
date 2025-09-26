@@ -1,0 +1,186 @@
+﻿.GridviewScrollHeader TH, .GridviewScrollHeader TD 
+{ 
+    padding:5px 8px 5px 8px; 
+    font-weight: bold; 
+    white-space: normal; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    background-color: #2CB2EB; 
+    vertical-align: middle; 
+    background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;        
+    
+} 
+
+.NewGrid 
+{
+    background-color: #fff; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    padding:5px 8px 5px 8px;
+}
+
+.NewGrid td 
+{ 
+	color: #717171;
+	border: solid 1px #A6C4E0;
+	border-top: solid 1px #A6C4E0;
+	border-right: solid 1px #A6C4E0;
+	padding:5px 8px 5px 8px;
+	height: 20px;
+	vertical-align:middle;
+	white-space: normal; 
+}
+
+.NewGrid th 
+{ 	
+    background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+    border: solid 1px #A6C4E0;
+	height: 20px;
+	color:White;
+	padding:5px 8px 5px 8px;
+	white-space: normal; 
+    font-weight: bold; 
+}
+
+.NewGrid .alt 
+{ 
+    background: #fcfcfc url(../images/itemBG.jpg) repeat-x top; 
+}
+
+.NewGrid .pgr 
+{
+    background-color:White;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+.PagerStyle table
+{
+   
+	background-color:White;
+	border-width:5px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:center;
+	
+}
+
+.PagerStyle table td
+{
+    border:0px;
+    padding:2px;
+}
+
+.PagerStyle td
+{
+    
+}
+
+.PagerStyle a
+{
+   	margin-right:8px;
+	cursor:hand;
+	color:#2F3660;
+	cursor: pointer;
+     
+}
+
+.PagerStyle span
+{
+    color: #717171;
+    margin-right:10px;
+    padding:3px 6px 5px 5px;
+    background-image: url(../images/blank.gif);
+    background-position:center ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.CabeceraGrilla
+{
+    padding:5px 8px 5px 8px; 
+    font-weight: bold; 
+    white-space: normal; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    background-color: #2CB2EB; 
+    vertical-align: middle; 
+    background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;        
+}
+
+.HeaderGrid
+{
+    padding:5px 0px 5px 0px; 
+    font-weight: bold; 
+    white-space: normal; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    background-color: #2CB2EB; 
+    vertical-align: middle; 
+    background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;
+}
+
+.CabeceraGrillaDinamica
+{
+    padding:5px 8px 5px 8px; 
+    font-weight: bold; 
+    white-space: normal; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    background-color: #2CB2EB; 
+    vertical-align: middle; 
+    text-align: center;
+    background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 40px;
+	color:White;        
+}
+
+.FixedCabeceraGrillaDinamica
+{
+    padding:5px 8px 5px 8px; 
+    font-weight: bold; 
+    white-space: normal; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+    background-color: #2CB2EB; 
+    vertical-align: middle; 
+    text-align: center;
+    background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	color:White;        
+    height: 60px;
+    
+}
+
+.FixedCabeceraGrillaDinamica TH, .FixedCabeceraGrillaDinamica TD
+{
+    padding:5px 8px 5px 8px; 
+    font-weight: bold; 
+    white-space: normal; 
+    vertical-align: middle; 
+    text-align: center;
+	height: 60px;
+	color:White;        
+}

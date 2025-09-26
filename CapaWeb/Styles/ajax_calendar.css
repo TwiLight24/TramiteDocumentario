@@ -1,0 +1,96 @@
+﻿/* Ajax Control Toolkit Calendar */
+
+/*    The outer rectangular container that supplies the border around the calendar element. 
+  Child Css classes: .ajax__calendar_header,.ajax__calendar_body,.ajax__calendar_footer. */
+.ajax__calendar_container     {background-color:#fff; border:solid 1px #a6c9e2 !important;}
+
+  /*  A container element that holds the next and previous arrows and the title of the current view. 
+      Child Css classes: .ajax__calendar_prev, .ajax__calendar_title, .ajax__calendar_next. */
+  .ajax__calendar_header      {background-color:#87b6d9; margin-bottom:5px;}
+
+      /*  An element that displays the arrow to view the previous set of data in the view(previous month/year/decade).
+          Child Css classes: none. */
+      .ajax__calendar_prev    {}
+
+      /*  An element that displays the title of the current view (month name, year, decade). 
+          Child Css classes: none. */
+      .ajax__calendar_title   {height:20px; color:#fff; line-height:1.7em;}
+      .ajax__calendar_hover .ajax__calendar_title {color:#eee !important;}
+
+      /*  An element that displays the arrow to view the previous set of data in the view (previous month/year/decade). 
+          Child Css classes: none. */
+      .ajax__calendar_next    {}
+      
+      .ajax__calendar_prev,.ajax__calendar_next
+                              {background-color:#dce6f4; height:20px !important; color:#fff !important;}
+
+  /*  A container element that holds the days, months, and years panes. Also provides a fixed rectangle with hidden overflow that is used for transitioning between views (next/previous month, or days/months/years).
+      Child Css class: .ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years. */
+  .ajax__calendar_body        {}
+
+      /*  A container element that holds the layout for the days in a month. 
+          Child Css classes: .ajax__calendar_dayname, .ajax__calendar_day */
+      .ajax__calendar_days    {}
+      .ajax__calendar_days table thead tr td
+                              {background-color:#fff; color:#000; font-weight:bold;}
+      
+
+          /*  An element that displays the short name of the day of the week. 
+              Child Css classes: none. */
+          .ajax__calendar_dayname
+                              {border:0 !important;}
+
+          /*  An element that displays the day of the month. 
+              Child Css classes: none */
+          .ajax__calendar_day {border:1px solid #c5dbec !important; background:#eaf4fd; margin:1px !important; height:15px !important; width:16px !important;}
+
+      /*  A container element that holds the layout for the months in a year. 
+          Child Css classes: .ajax__calendar_month. */
+      .ajax__calendar_months  {}
+
+          /*  An element that displays the month of the year. 
+              Child Css classes: none */
+          .ajax__calendar_month
+                              {}
+                              
+          .ajax__calendar_month, .ajax__calendar_day {color:#2e6e9e; font-weight:bold; }
+
+      /*  A container element that holds the layout for the years in a decade. 
+          Child Css classes: .ajax__calendar_year. */
+      .ajax__calendar_years   {}
+
+          /*  An element that displays the year in a decade. 
+              Child Css classes: none */
+          .ajax__calendar_year{}
+
+/*  A container element that holds the current date. 
+  Child Css classes: .ajax__calendar_today. */
+.ajax__calendar_footer            {border-top:1px solid #c5dbec !important; line-height:1.2em;}
+
+  /*  An element that displays the current date. 
+      Child Css classes: none. */
+  .ajax__calendar_today       {border:1px solid #c5dbec; background-color:#e1effb;}
+
+/*    This is applied to an element in the DOM above a day, month or year and is used to apply CSS attributes that show a hover state. 
+  Child Css classes: .ajax__calendar_day, .ajax__calendar_month, .ajax__calendar_year */
+.ajax__calendar_hover         {}
+td.ajax__calendar_hover div       {background:#d2e6f5 !important; border:1px solid #79b7e7 !important;}
+
+/*    This is applied to an element in the DOM above a day, month or year and is used to apply CSS attributes that show the currently selected value. 
+  Child Css classes: .ajax__calendar_day, .ajax__calendar_month, .ajax__calendar_year. */
+.ajax__calendar_active            {}
+td.ajax__calendar_active div  {background:#fbec88 !important; border:1px solid #fad42e !important;}
+
+
+.ajax__calendar_inactive            {}
+td.ajax__calendar_inactive div  {color:#e82b05; background:#fbec88 !important; border:1px solid #fad42e !important;}
+
+/*    This is applied to an element in the DOM above a day or year that is outside of the current view (day not in the visible month, year not in the visible decade). 
+  Child Css classes: .ajax__calendar_day, .ajax__calendar_year. */
+.ajax__calendar_other         {}
+
+.ajax__calendar_other .ajax__calendar_day
+                              {font-weight:normal !important; color:#bbb !important; border:1px solid #eee !important;}
+
+.ajax__calendar_hover.ajax__calendar_other .ajax__calendar_day
+                              {background:#efefef !important; color:#aaa !important; border:

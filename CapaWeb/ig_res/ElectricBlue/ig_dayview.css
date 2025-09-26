@@ -1,0 +1,258 @@
+.igdv_ElectricBlueControl
+{
+	border:solid 1px #052684;
+}
+
+
+.igdv_ElectricBlueCaptionHeader
+{
+	background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:8pt;
+	border-bottom:solid 1px #052684;
+	height: 24px;
+	color:Black;
+	text-align:center;
+}
+
+
+.igdv_ElectricBlueDayHeader
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	font-size:8pt;
+	border-bottom:solid 1px #052684;
+	padding:5px;
+	overflow: hidden;
+	color:White;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_ElectricBlueNonWorkingTimeSlot
+{
+	background-color:#E7EDF6;
+	border-bottom:solid 1px #D5E1F1;
+	height: 20px;
+}
+
+
+.igdv_ElectricBlueWorkingTimeSlot
+{
+	background-color:White;
+	border-bottom:solid 1px #E6EDF7;
+	height: 20px;
+}
+
+
+.igdv_ElectricBlueFadedAppointment
+{
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+.igdv_ElectricBlueResource
+{
+}
+
+
+.igdv_ElectricBlueResourceButton
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	font-size:8pt;
+	border-width:0px;
+	border-right:solid 1px #052684;
+	border-bottom:solid 1px #052684;
+	padding:4px;
+	color:White;
+}
+
+
+.igdv_ElectricBlueResourceButtonActive
+{
+}
+
+
+.igdv_ElectricBlueAllDayEventArea
+{
+	background-color:White;
+	border-bottom:solid 1px #052684;
+}
+
+
+.igdv_ElectricBlueAllDayEvent
+{
+	background-color:WhiteSmoke;
+	font-size:8pt;
+	border:solid 1px #C0C0C0;
+	padding:5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.igdv_ElectricBlueAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	overflow: hidden;
+}
+
+
+.igdv_ElectricBlueActivityEdge
+{
+	font-size:1px;
+	height: 4px;
+	cursor:n-resize;
+}
+
+
+.igdv_ElectricBlueActivityEdgeLeft
+{
+	font-size:2px;
+	width: 6px;
+	cursor:move;
+}
+
+
+.igdv_ElectricBlueMultiDayEventArrowLeft
+{
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igws_arrowleft.gif);
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+}
+
+
+.igdv_ElectricBlueMultiDayEventArrowRight
+{
+	background-repeat:no-repeat;
+	background-position:center center ;
+	background-image: url(images/igws_arrowright.gif);
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+}
+
+
+.igdv_ElectricBlueTodayHeader
+{
+	background-color:#56C1EF;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover.gif);
+	font-weight:bold;
+	font-size:8pt;
+	border-bottom:solid 1px #052684;
+	padding:5px;
+	color:White;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_ElectricBlueTimeSlotLabel
+{
+	background-color:White;
+	background-repeat:repeat-x;
+	background-image: url(images/bg_top.gif);
+	font-size:16pt;
+	border-right:solid 1px #052684;
+	border-bottom:solid 1px #052684;
+	width: 60px;
+	color:#052684;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_ElectricBlueTimeSlotLabelMinutes
+{
+	font-size:8pt;
+}
+
+
+.igdv_ElectricBlueAllDayEventSelected
+{
+	background-color:#2482BA;
+	border:solid 1px #052684;
+	color:White;
+}
+
+
+.igdv_ElectricBlueAllDayEventAreaSelected
+{
+	background-color:#4F92BF;
+}
+
+
+.igdv_ElectricBlueActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_ElectricBlueActivityEdgeBusy
+{
+	background-color:#E6EDF7;
+}
+
+
+.igdv_ElectricBlueActivityEdgeTentative
+{
+	background-color:#90C0FF;
+}
+
+
+.igdv_ElectricBlueActivityEdgeOutofOffice
+{
+	background-color:#900090;
+}
+
+
+.igdv_ElectricBlueActivityEdgeFree
+{
+	background-color:#F0F0F0;
+}
+
+
+.igdv_ElectricBlueNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+
+.igdv_ElectricBlueSelectedAppointment
+{
+	z-index: 9999;
+}
+
+
+.igdv_ElectricBlueResourceButton hover
+{
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}
+
+
+.igdv_ElectricBlueResourceButton focus, .igdv_ElectricBlueResourceButtonActive
+{
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+}
+
+

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCargo" targetNamespace="http://tempuri.org/dsCargo.xsd" xmlns:mstns="http://tempuri.org/dsCargo.xsd" xmlns="http://tempuri.org/dsCargo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ISOFT" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ISOFT (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ISOFT.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Datatable1TableAdapter" GeneratorDataComponentClassName="Datatable1TableAdapter" Name="Datatable1" UserDataComponentName="Datatable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ISOFT (Web.config)" DbObjectName="GMI_JCWEB_WTD.dbo.v_REPORTE_CARGO" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT IdCargo, Tipo, Destino, Observacion, FechaRegistro, Usuario, IdDocumento, Empresa, NOrden, Proveedor, Ruc, TipoDoc, Moneda, Monto, MontoAct, MontoIni, NroDoc, FormPago, FechaDoc, FechaVen, TipoDocumento, ObServDocumento FROM v_REPORTE_CARGO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdCargo" DataSetColumn="IdCargo" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+              <Mapping SourceColumn="Destino" DataSetColumn="Destino" />
+              <Mapping SourceColumn="Observacion" DataSetColumn="Observacion" />
+              <Mapping SourceColumn="FechaRegistro" DataSetColumn="FechaRegistro" />
+              <Mapping SourceColumn="Usuario" DataSetColumn="Usuario" />
+              <Mapping SourceColumn="IdDocumento" DataSetColumn="IdDocumento" />
+              <Mapping SourceColumn="Empresa" DataSetColumn="Empresa" />
+              <Mapping SourceColumn="NOrden" DataSetColumn="NOrden" />
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="Ruc" DataSetColumn="Ruc" />
+              <Mapping SourceColumn="TipoDoc" DataSetColumn="TipoDoc" />
+              <Mapping SourceColumn="Moneda" DataSetColumn="Moneda" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="MontoAct" DataSetColumn="MontoAct" />
+              <Mapping SourceColumn="MontoIni" DataSetColumn="MontoIni" />
+              <Mapping SourceColumn="NroDoc" DataSetColumn="NroDoc" />
+              <Mapping SourceColumn="FormPago" DataSetColumn="FormPago" />
+              <Mapping SourceColumn="FechaDoc" DataSetColumn="FechaDoc" />
+              <Mapping SourceColumn="FechaVen" DataSetColumn="FechaVen" />
+              <Mapping SourceColumn="TipoDocumento" DataSetColumn="TipoDocumento" />
+              <Mapping SourceColumn="ObServDocumento" DataSetColumn="ObServDocumento" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCargo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCargo" msprop:Generator_UserDSName="dsCargo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Datatable1" msprop:Generator_TableClassName="Datatable1DataTable" msprop:Generator_TableVarName="tableDatatable1" msprop:Generator_RowChangedName="Datatable1RowChanged" msprop:Generator_TablePropName="Datatable1" msprop:Generator_RowDeletingName="Datatable1RowDeleting" msprop:Generator_RowChangingName="Datatable1RowChanging" msprop:Generator_RowEvHandlerName="Datatable1RowChangeEventHandler" msprop:Generator_RowDeletedName="Datatable1RowDeleted" msprop:Generator_RowClassName="Datatable1Row" msprop:Generator_UserTableName="Datatable1" msprop:Generator_RowEvArgName="Datatable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCargo" msprop:Generator_ColumnVarNameInTable="columnIdCargo" msprop:Generator_ColumnPropNameInRow="IdCargo" msprop:Generator_ColumnPropNameInTable="IdCargoColumn" msprop:Generator_UserColumnName="IdCargo" type="xs:int" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Destino" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" msprop:Generator_UserColumnName="Destino" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Observacion" msprop:Generator_ColumnVarNameInTable="columnObservacion" msprop:Generator_ColumnPropNameInRow="Observacion" msprop:Generator_ColumnPropNameInTable="ObservacionColumn" msprop:Generator_UserColumnName="Observacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaRegistro" msprop:Generator_ColumnVarNameInTable="columnFechaRegistro" msprop:Generator_ColumnPropNameInRow="FechaRegistro" msprop:Generator_ColumnPropNameInTable="FechaRegistroColumn" msprop:Generator_UserColumnName="FechaRegistro" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Usuario" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdDocumento" msprop:Generator_ColumnVarNameInTable="columnIdDocumento" msprop:Generator_ColumnPropNameInRow="IdDocumento" msprop:Generator_ColumnPropNameInTable="IdDocumentoColumn" msprop:Generator_UserColumnName="IdDocumento" type="xs:int" />
+              <xs:element name="Empresa" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOrden" msprop:Generator_ColumnVarNameInTable="columnNOrden" msprop:Generator_ColumnPropNameInRow="NOrden" msprop:Generator_ColumnPropNameInTable="NOrdenColumn" msprop:Generator_UserColumnName="NOrden" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ruc" msprop:Generator_ColumnVarNameInTable="columnRuc" msprop:Generator_ColumnPropNameInRow="Ruc" msprop:Generator_ColumnPropNameInTable="RucColumn" msprop:Generator_UserColumnName="Ruc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoDoc" msprop:Generator_ColumnVarNameInTable="columnTipoDoc" msprop:Generator_ColumnPropNameInRow="TipoDoc" msprop:Generator_ColumnPropNameInTable="TipoDocColumn" msprop:Generator_UserColumnName="TipoDoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MontoAct" msprop:Generator_ColumnVarNameInTable="columnMontoAct" msprop:Generator_ColumnPropNameInRow="MontoAct" msprop:Generator_ColumnPropNameInTable="MontoActColumn" msprop:Generator_UserColumnName="MontoAct" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MontoIni" msprop:Generator_ColumnVarNameInTable="columnMontoIni" msprop:Generator_ColumnPropNameInRow="MontoIni" msprop:Generator_ColumnPropNameInTable="MontoIniColumn" msprop:Generator_UserColumnName="MontoIni" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FormPago" msprop:Generator_ColumnVarNameInTable="columnFormPago" msprop:Generator_ColumnPropNameInRow="FormPago" msprop:Generator_ColumnPropNameInTable="FormPagoColumn" msprop:Generator_UserColumnName="FormPago" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaDoc" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFechaDoc" msprop:Generator_ColumnPropNameInRow="FechaDoc" msprop:Generator_ColumnPropNameInTable="FechaDocColumn" msprop:Generator_UserColumnName="FechaDoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaVen" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFechaVen" msprop:Generator_ColumnPropNameInRow="FechaVen" msprop:Generator_ColumnPropNameInTable="FechaVenColumn" msprop:Generator_UserColumnName="FechaVen" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoDocumento" msprop:Generator_ColumnVarNameInTable="columnTipoDocumento" msprop:Generator_ColumnPropNameInRow="TipoDocumento" msprop:Generator_ColumnPropNameInTable="TipoDocumentoColumn" msprop:Generator_UserColumnName="TipoDocumento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObServDocumento" msprop:Generator_ColumnVarNameInTable="columnObServDocumento" msprop:Generator_ColumnPropNameInRow="ObServDocumento" msprop:Generator_ColumnPropNameInTable="ObServDocumentoColumn" msprop:Generator_UserColumnName="ObServDocumento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Motivo" msprop:Generator_ColumnVarNameInTable="columnMotivo" msprop:Generator_ColumnPropNameInRow="Motivo" msprop:Generator_ColumnPropNameInTable="MotivoColumn" msprop:Generator_UserColumnName="Motivo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Datatable1" />
+      <xs:field xpath="mstns:IdDocumento" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

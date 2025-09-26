@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPagoFi" targetNamespace="http://tempuri.org/dsPagoFi.xsd" xmlns:mstns="http://tempuri.org/dsPagoFi.xsd" xmlns="http://tempuri.org/dsPagoFi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="ISOFT" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ISOFT (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.ISOFT.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_REPORTE_PAGO_FINANZASTableAdapter" GeneratorDataComponentClassName="V_REPORTE_PAGO_FINANZASTableAdapter" Name="V_REPORTE_PAGO_FINANZAS" UserDataComponentName="V_REPORTE_PAGO_FINANZASTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ISOFT (Web.config)" DbObjectName="GMI_JCWEB_WTD.dbo.V_REPORTE_PAGO_FINANZAS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT * FROM V_REPORTE_PAGO_FINANZAS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FechaDoc" DataSetColumn="FechaDoc" />
+              <Mapping SourceColumn="NroDoc" DataSetColumn="NroDoc" />
+              <Mapping SourceColumn="FechaVen" DataSetColumn="FechaVen" />
+              <Mapping SourceColumn="Ruc" DataSetColumn="Ruc" />
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="NOrden" DataSetColumn="NOrden" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Moneda" DataSetColumn="Moneda" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+              <Mapping SourceColumn="DocNumReserva" DataSetColumn="DocNumReserva" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPagoFi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPagoFi" msprop:Generator_UserDSName="dsPagoFi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_REPORTE_PAGO_FINANZAS" msprop:Generator_TableClassName="V_REPORTE_PAGO_FINANZASDataTable" msprop:Generator_TableVarName="tableV_REPORTE_PAGO_FINANZAS" msprop:Generator_TablePropName="V_REPORTE_PAGO_FINANZAS" msprop:Generator_RowDeletingName="V_REPORTE_PAGO_FINANZASRowDeleting" msprop:Generator_RowChangingName="V_REPORTE_PAGO_FINANZASRowChanging" msprop:Generator_RowEvHandlerName="V_REPORTE_PAGO_FINANZASRowChangeEventHandler" msprop:Generator_RowDeletedName="V_REPORTE_PAGO_FINANZASRowDeleted" msprop:Generator_UserTableName="V_REPORTE_PAGO_FINANZAS" msprop:Generator_RowChangedName="V_REPORTE_PAGO_FINANZASRowChanged" msprop:Generator_RowEvArgName="V_REPORTE_PAGO_FINANZASRowChangeEvent" msprop:Generator_RowClassName="V_REPORTE_PAGO_FINANZASRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FechaDoc" msprop:Generator_ColumnVarNameInTable="columnFechaDoc" msprop:Generator_ColumnPropNameInRow="FechaDoc" msprop:Generator_ColumnPropNameInTable="FechaDocColumn" msprop:Generator_UserColumnName="FechaDoc" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaVen" msprop:Generator_ColumnVarNameInTable="columnFechaVen" msprop:Generator_ColumnPropNameInRow="FechaVen" msprop:Generator_ColumnPropNameInTable="FechaVenColumn" msprop:Generator_UserColumnName="FechaVen" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ruc" msprop:Generator_ColumnVarNameInTable="columnRuc" msprop:Generator_ColumnPropNameInRow="Ruc" msprop:Generator_ColumnPropNameInTable="RucColumn" msprop:Generator_UserColumnName="Ruc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOrden" msprop:Generator_ColumnVarNameInTable="columnNOrden" msprop:Generator_ColumnPropNameInRow="NOrden" msprop:Generator_ColumnPropNameInTable="NOrdenColumn" msprop:Generator_UserColumnName="NOrden" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DocNumReserva" msprop:Generator_ColumnVarNameInTable="columnDocNumReserva" msprop:Generator_ColumnPropNameInRow="DocNumReserva" msprop:Generator_ColumnPropNameInTable="DocNumReservaColumn" msprop:Generator_UserColumnName="DocNumReserva" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

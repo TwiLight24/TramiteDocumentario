@@ -1,0 +1,666 @@
+﻿body 
+{
+    width:  100%;
+  	font: 11px Tahoma;
+}
+
+textarea, select, input
+{
+    font: 11px Tahoma;
+    vertical-align:middle;
+    margin-left: 0px;
+    resize: none;
+    text-align: left;
+}
+.a
+{
+    text-decoration: none;
+}
+.txt
+{
+    height: 12px;
+    width: 90%;
+}
+.txt2
+{
+    height: 12px;
+    width: 97%;
+}
+.txt3
+{
+    border-style: none;
+    border-color: White;
+    background-color: transparent;
+    height: 12px;
+    width: 100%;
+    overflow: hidden;
+}
+.txtBallon
+{
+   position: relative;
+   z-index: -1;
+}
+.txtArea
+{
+    resize: none;
+}
+
+.label
+{
+    font: 11px Tahoma;
+}
+
+.p
+{
+    font: 15px Tahoma;
+    font-weight:bold;
+    color: #0f4580;
+}
+.button
+{
+    /*background-color: Navy;*/
+    color: White;
+    background: url(../images/button_bg.png) center no-repeat;
+    width:100px;
+    height:26px;
+    font: 11px Tahoma;
+}
+.buttonL
+{
+    /*background-color: Navy;*/
+    color: White;
+    background: url(../images/buttonL_bg.png) center no-repeat;
+    width:130px;
+    height:26px;
+    font: 11px Tahoma;
+}
+
+.HeadGrilla 
+{ 	
+    padding:5px 8px 5px 8px; 
+    background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+            background-color: #2CB2EB; 
+	color:White;
+	
+}
+
+.tituloForm
+{
+	color: White;
+	cursor: default;
+	text-align:left;
+	background-image: url(../images/headerform.gif);
+	height:31px;
+	font: bold 11px Tahoma;	
+}
+
+.group
+{
+    border-color: #B0C4DE;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.headerrow
+{
+   background-color:  #B0C4DE;
+   font: bold 11px Tahoma;
+   height: 24px;
+}
+
+.header
+{
+   background-color: #e6e6fa;
+   text-align: right;
+   height: 26px;
+   width: 14%;
+   vertical-align:middle;
+}
+
+.readonly
+{
+    background-color: ButtonFace;
+    font: bold 11px Tahoma;
+    width: 33%;
+    vertical-align:middle;
+}
+
+.edit
+{
+    background-color: White;
+    width: 33%;
+}
+
+.ddl
+{
+    font-size: 11px;
+    font-family: Tahoma;
+}
+
+.modalBackground 
+{
+	background-color:Black;
+	filter:alpha(opacity=75);
+	opacity:0.70;
+}
+.modalPopup {
+	background-color:#FFFFFF;
+	border-width:1px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.mGrid 
+{ 
+    width: 100%;
+    background-color: #fff; 
+    border: solid 1px #A6C4E0; 
+    border-collapse:collapse; 
+}
+
+.mGrid td 
+{ 
+	color: #717171;
+	border-width:0px;
+	border: 1px solid #A6C4E0;
+	border-top:solid 1px #A6C4E0;
+	border-right: 1px #A6C4E0;
+	padding:5px 8px 5px 8px;
+	height: 20px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+
+.mGrid th 
+{ 	
+    background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;
+}
+
+.mGrid .alt 
+{ 
+    background: #fcfcfc url(../images/itemBG.jpg) repeat-x top; 
+}
+
+.mGrid .pgr 
+{
+    background-color:White;
+	border-width:0px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:right;
+}
+
+.mGrid2 th 
+{ 	
+  
+  background-color:#2CB2EB;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(../images/headergvw.gif);
+	height: 20px;
+	color:White;
+}
+
+.error{
+   background-color: Red;
+   color: White;
+}
+
+.PagerStyle table
+{
+   
+	background-color:White;
+	border-width:5px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	text-align:center;
+	
+}
+.PagerStyle table td
+{
+    border:0px;
+    padding:2px;
+}
+.PagerStyle td
+{
+    
+}
+.PagerStyle a
+{
+   	margin-right:8px;
+	cursor:hand;
+	color:#2F3660;
+	cursor: pointer;
+     
+}
+.PagerStyle span
+{
+    color: #717171;
+    margin-right:10px;
+    padding:3px 6px 5px 5px;
+    background-image: url(../images/blank.gif);
+    background-position:center ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* ComboBox styles */
+
+#master_content .dropdownlist_itemlist
+{
+    margin: 0px;
+}
+
+.AjaxToolkitStyle .dropdownlist_inputcontainer .dropdownlist_textboxcontainer input
+{
+    background-image: url(../images/ComboBox/images/toolkit-bg.gif);
+    background-position: top left;
+    border: 0px none;
+    color: #FFFFFF;
+    padding: 4px 0px 3px 5px;
+    font-size: 13px;
+    height: 16px;
+    width: 240px;
+}
+.AjaxToolkitStyle .dropdownlist_inputcontainer .dropdownlist_buttoncontainer button
+{
+    background-image: url(../images/ComboBox/images/toolkit-arrow.gif);
+    background-position: top left;
+    border: 0px none;
+    height: 23px;
+    width: 23px;
+}
+.AjaxToolkitStyle .dropdownlist_itemlist
+{
+    border-color: #0F2543;
+    background-color: #EFEFEF;
+}
+
+.AquaStyle .dropdownlist_inputcontainer .dropdownlist_textboxcontainer input
+{
+    margin: 0;
+    background-image: url(../images/ComboBox/images/aqua-bg.gif);
+    background-position: top left;
+    border: 0px none;
+    padding: 2px 0px 0px 8px;
+    font-size: 11px;
+    height: 17px;
+    width: 150px;
+}
+.AquaStyle .dropdownlist_inputcontainer .dropdownlist_buttoncontainer button
+{
+    background-image: url(../images/ComboBox/images/aqua-arrow.gif);
+    background-position: top left;
+    border: 0px none;
+    height: 19px;
+    width: 19px;
+}
+.AquaStyle .dropdownlist_itemlist
+{
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+.WindowsStyle .combobox_inputcontainer .dropdownlist_textboxcontainer input
+{
+    margin: 0;
+    border: solid 1px #7F9DB9;
+    border-right: 0px none;
+    padding: 1px 0px 0px 5px;
+    font-size: 13px;
+    height: 18px;
+}
+.WindowsStyle .dropdownlist_inputcontainer .dropdownlist_buttoncontainer button
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/ComboBox/images/windows-arrow.gif);
+    background-position: top left;
+    border: 0px none;
+    height: 21px;
+    width: 21px;
+}
+.WindowsStyle .dropdownlist_itemlist
+{
+    border-color: #7F9DB9;
+}
+
+/*CollapsiblePanel*/
+.collapsePanel {
+	background-color:white;
+	overflow:hidden;
+	vertical-align:middle;
+}
+
+.collapsePanelHeader{
+	width:98%;
+	height:29px;
+	background-color: #B0C4DE;
+	color:#000000;
+	vertical-align:middle;
+}
+#master_content .collapsePanelHeader a {color:#FFF; vertical-align:middle;}
+#master_content .collapsePanelHeader a:hover {text-decoration:none;background:none;vertical-align:middle;}
+
+.MaskedEditError
+{
+    
+}
+
+
+/*Calendar Control CSS*/
+
+.cal_Theme1 .ajax__calendar_other .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_other .ajax__calendar_year
+{
+color:White; /*Your background color of calender control*/
+}
+.cal_Theme1 .ajax__calendar_container   {
+background-color: #DEF1F4;
+border:solid 1px #77D5F7;padding-left: 5px; padding-right: 7px;
+}
+
+.cal_Theme1 .ajax__calendar_header  {
+background-color: #ffffff;
+margin-bottom: 4px; padding-right: 7px;
+}
+
+.cal_Theme1 .ajax__calendar_title,
+.cal_Theme1 .ajax__calendar_next,
+.cal_Theme1 .ajax__calendar_prev    {
+color: #004080;
+padding-top: 3px;padding-bottom:2px;
+}
+
+.cal_Theme1 .ajax__calendar_body    {
+background-color: #ffffff;
+border: solid 1px #77D5F7;  padding-top: 1px; 
+}
+
+.cal_Theme1 .ajax__calendar_dayname {
+text-align:center;
+font-weight:bold;
+margin-bottom: 4px;
+margin-top: 2px;
+color: #004080;
+padding-left: 2px;
+}
+
+.cal_Theme1 .ajax__calendar_day {
+color: #004080;
+text-align:center;
+}
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+.cal_Theme1 .ajax__calendar_active  {
+color: #004080;
+font-weight: bold;
+}
+
+.cal_Theme1 .ajax__calendar_today   {
+font-weight:bold;
+background-color: #DEF1F4;
+}
+
+.cal_Theme1 .ajax__calendar_other,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_today,
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_title {
+color: #004080;
+}
+.cal_Theme1 .ajax__calendar_invalid .ajax__calendar_day 
+{
+    background-color:#CDCCCC;
+    color:White; 
+    text-decoration:none; 
+    cursor:default;
+}
+/*-------------------------------*/
+/*Container supported classes*/
+/*-------------------------------*/
+/*Main wrapper class*/
+.ContainerWrapper
+{
+	background-color: #DFE8F6;
+	border-right: 1px solid #9ABBE8;
+	border-bottom: 1px solid #9ABBE8;
+	border-left: 1px solid #9ABBE8;
+	width: 100%;
+	vertical-align: middle;
+	height: 26px;
+}
+/*Gap between wrapper and container*/
+.ContainerMargin
+{
+	padding: 2px;
+	vertical-align: middle;	
+}
+/*Container*/
+.Container
+{
+	border: 1px solid #99BBE8;
+	background-color: White;
+}
+
+/*Header of each container*/
+.ContainerHeader
+{
+	background-image: url(../images/Container_Header.gif);
+	height: 26px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #133047;
+	vertical-align: middle;	
+}
+/*-------------------------------*/
+/*Messages Status supported classes*/
+/*-------------------------------*/
+/*General class for Message*/
+#tblMessage
+{
+	height: 23px;
+	width: 100%;
+}
+/*Message for Successful*/
+#tblMessage.Success
+{
+	border: solid 1px #5AAD0D;
+	background-color: #E5F7D5;
+}
+/*Message for Information*/
+#tblMessage.Information
+{
+	border: solid 1px #88B5E9;
+	background-color: #E2EDF8;
+}
+/*Message for Warning*/
+#tblMessage.Warning
+{
+	border: solid 1px #FD7B04;
+	background-color: #FFF7E7;
+}
+/*Message for Error*/
+#tblMessage.Error
+{
+	border: solid 1px #FF0001;
+	background-color: #FFEAEA;
+}
+
+/*-------------------------------*/
+/*Messages Status Icon supported classes*/
+/*-------------------------------*/
+/*General class for Message Icon*/
+#dvIcon
+{
+	line-height: 23px;
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+	padding-left: 38px;
+}
+/*Message Icon for Successful*/
+#dvIcon.Success
+{
+	background-image: url('../images/Message_Success.png');
+}
+/*Message Icon for Information*/
+#dvIcon.Information
+{
+	background-image: url('../images/Message_Information.png');
+}
+/*Message Icon for Warning*/
+#dvIcon.Warning
+{
+	background-image: url('../images/Message_Warning.png');
+}
+/*Message Icon for Error*/
+#dvIcon.Error
+{
+	background-image: url('../images/Message_Error.png');
+}
+
+/*-------------------------------*/
+/*Progressbar supported classes*/
+/*-------------------------------*/
+/*Progressbar container wrapper*/
+#dvProgressContainer
+{
+	border-left: solid 1px #CFCFCF;
+	border-right: solid 1px #CFCFCF;
+	width: 573px;
+	height: 12px;
+	background-image: url('../images/Progressbar_Wrapper.gif');
+}
+/*Progressbar container*/
+#dvProgress
+{
+	background-image: url(../images/Progressbar_Content.gif);
+	height: 100%;
+	width: 0px;
+}
+
+/*-------------------------------*/
+/*Grid supported classes*/
+/*-------------------------------*/
+/*Grid Header Row*/
+.GridHeader
+{
+	background-image: url(../images/Grid_Header.gif);
+	height: 25px;
+}
+/*Grid Header row separator */
+.GridHeader td.Separator
+{
+	border-right: solid 1px #C9CACA;
+	padding: 0px 2px 0px 2px;
+}
+/*Grid row height for empty, normal, selected and hovered */
+.GridRow, .GridEmptyRow, .GridNumberRow, .GridNormalRow, .GridAlternate, .GridHoverRow
+{
+	height: 25px;
+}
+/*Grid Empty row */
+.GridEmptyRow
+{
+	vertical-align: middle;
+	text-align: center;
+	color: Gray;
+}
+/*Grid Numbered row */
+.GridNumberRow
+{
+	background-image: url(../images/Grid_RowNumber.gif) ;
+}
+/*Grid Normal row */
+.GridNormalRow
+{
+	background-image: url(../images/Grid_RowNormal.gif) repeat-x;
+}
+/*Grid Alternate row */
+.GridAlternate
+{
+	background-image: url(../images/Grid_RowAlternate.gif) repeat;
+}
+/*Grid Hover row */
+.GridHoverRow
+{
+	background-image: url(../images/Grid_RowHover.gif) repeat;
+}
+/*Grid Footer row*/
+.GridFooter
+{
+	background-image: url(../images/Grid_Footer.gif);
+	height: 25px;
+}
+/*Grid Footer row left and right margin*/
+.GridFooter td
+{
+	padding: 0px 3px 0px 3px;
+}
+.StartUpload
+{
+	/* for IE */
+	filter:alpha(opacity=20);
+	/* CSS3 standard */
+	opacity:0.2;
+	
+}
+.button
+{
+    /*background-color: Navy;*/
+    color: White;
+    background: url(../images/button_bg.png) center no-repeat;
+    width:100px;
+    height:26px;
+    font: 11px Tahoma;
+}
+.buttonL
+{
+    /*background-color: Navy;*/
+    color: White;
+    background: url(../images/buttonL_bg.png) center no-repeat;
+    width:130px;
+    height:26px;
+    font: 11px Tahoma;
+}
+
+#divinputfile{
+  background:url(../images/upload_file.gif) no-repeat 100% 1px;
+  height:28px;
+  width:385px;
+  margin:0px;
+ 
+}#divinputfile #filepc{
+  opacity: 0.0;
+  -moz-opacity: 0.0;
+  filter: alpha(opacity=00);
+  font-size:18px;
+ }
+ 
+#fakeinputfile{
+  margin-top:-28px;
+ }
+ 
+#fakeinputfile #fakefilepc{
+  width:265px;
+  height:22px;
+  font-size:18px;
+  font-family:Arial;
+}

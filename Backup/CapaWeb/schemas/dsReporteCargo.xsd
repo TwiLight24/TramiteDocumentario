@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReporteCargo" targetNamespace="http://tempuri.org/dsReporteCargo.xsd" xmlns:mstns="http://tempuri.org/dsReporteCargo.xsd" xmlns="http://tempuri.org/dsReporteCargo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReporteCargo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReporteCargo" msprop:Generator_UserDSName="dsReporteCargo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteCargo" msprop:Generator_TableClassName="ReporteCargoDataTable" msprop:Generator_TableVarName="tableReporteCargo" msprop:Generator_TablePropName="ReporteCargo" msprop:Generator_RowDeletingName="ReporteCargoRowDeleting" msprop:Generator_RowChangingName="ReporteCargoRowChanging" msprop:Generator_RowEvHandlerName="ReporteCargoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteCargoRowDeleted" msprop:Generator_UserTableName="ReporteCargo" msprop:Generator_RowChangedName="ReporteCargoRowChanged" msprop:Generator_RowEvArgName="ReporteCargoRowChangeEvent" msprop:Generator_RowClassName="ReporteCargoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCargo" msprop:Generator_ColumnVarNameInTable="columnIdCargo" msprop:Generator_ColumnPropNameInRow="IdCargo" msprop:Generator_ColumnPropNameInTable="IdCargoColumn" msprop:Generator_UserColumnName="IdCargo" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" msprop:Generator_UserColumnName="Tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" msprop:Generator_UserColumnName="Destino" type="xs:string" minOccurs="0" />
+              <xs:element name="Observacion" msprop:Generator_ColumnVarNameInTable="columnObservacion" msprop:Generator_ColumnPropNameInRow="Observacion" msprop:Generator_ColumnPropNameInTable="ObservacionColumn" msprop:Generator_UserColumnName="Observacion" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaRegistro" msprop:Generator_ColumnVarNameInTable="columnFechaRegistro" msprop:Generator_ColumnPropNameInRow="FechaRegistro" msprop:Generator_ColumnPropNameInTable="FechaRegistroColumn" msprop:Generator_UserColumnName="FechaRegistro" type="xs:string" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario" type="xs:string" minOccurs="0" />
+              <xs:element name="IdDocumento" msprop:Generator_ColumnVarNameInTable="columnIdDocumento" msprop:Generator_ColumnPropNameInRow="IdDocumento" msprop:Generator_ColumnPropNameInTable="IdDocumentoColumn" msprop:Generator_UserColumnName="IdDocumento" type="xs:string" minOccurs="0" />
+              <xs:element name="Empresa" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" type="xs:string" minOccurs="0" />
+              <xs:element name="NOrden" msprop:Generator_ColumnVarNameInTable="columnNOrden" msprop:Generator_ColumnPropNameInRow="NOrden" msprop:Generator_ColumnPropNameInTable="NOrdenColumn" msprop:Generator_UserColumnName="NOrden" type="xs:string" minOccurs="0" />
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="Ruc" msprop:Generator_ColumnVarNameInTable="columnRuc" msprop:Generator_ColumnPropNameInRow="Ruc" msprop:Generator_ColumnPropNameInTable="RucColumn" msprop:Generator_UserColumnName="Ruc" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoDoc" msprop:Generator_ColumnVarNameInTable="columnTipoDoc" msprop:Generator_ColumnPropNameInRow="TipoDoc" msprop:Generator_ColumnPropNameInTable="TipoDocColumn" msprop:Generator_UserColumnName="TipoDoc" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:string" minOccurs="0" />
+              <xs:element name="MontoAct" msprop:Generator_ColumnVarNameInTable="columnMontoAct" msprop:Generator_ColumnPropNameInRow="MontoAct" msprop:Generator_ColumnPropNameInTable="MontoActColumn" msprop:Generator_UserColumnName="MontoAct" type="xs:string" minOccurs="0" />
+              <xs:element name="MontoIni" msprop:Generator_ColumnVarNameInTable="columnMontoIni" msprop:Generator_ColumnPropNameInRow="MontoIni" msprop:Generator_ColumnPropNameInTable="MontoIniColumn" msprop:Generator_UserColumnName="MontoIni" type="xs:string" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:string" minOccurs="0" />
+              <xs:element name="FormPago" msprop:Generator_ColumnVarNameInTable="columnFormPago" msprop:Generator_ColumnPropNameInRow="FormPago" msprop:Generator_ColumnPropNameInTable="FormPagoColumn" msprop:Generator_UserColumnName="FormPago" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaDoc" msprop:Generator_ColumnVarNameInTable="columnFechaDoc" msprop:Generator_ColumnPropNameInRow="FechaDoc" msprop:Generator_ColumnPropNameInTable="FechaDocColumn" msprop:Generator_UserColumnName="FechaDoc" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaVen" msprop:Generator_ColumnVarNameInTable="columnFechaVen" msprop:Generator_ColumnPropNameInRow="FechaVen" msprop:Generator_ColumnPropNameInTable="FechaVenColumn" msprop:Generator_UserColumnName="FechaVen" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoDocumento" msprop:Generator_ColumnVarNameInTable="columnTipoDocumento" msprop:Generator_ColumnPropNameInRow="TipoDocumento" msprop:Generator_ColumnPropNameInTable="TipoDocumentoColumn" msprop:Generator_UserColumnName="TipoDocumento" type="xs:string" minOccurs="0" />
+              <xs:element name="ObServDocumento" msprop:Generator_ColumnVarNameInTable="columnObServDocumento" msprop:Generator_ColumnPropNameInRow="ObServDocumento" msprop:Generator_ColumnPropNameInTable="ObServDocumentoColumn" msprop:Generator_UserColumnName="ObServDocumento" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

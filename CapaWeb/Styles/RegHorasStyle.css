@@ -1,0 +1,26 @@
+﻿.txt
+{
+    border-style: none;
+    border-color: White;
+    background-color: transparent;
+    height: 12px;
+    width: 100%;
+}
+.highlight
+{
+    background-color: #DAECF7;
+}
+.highlight-td
+{
+    background-color: #DAECF7;
+}
+.td
+{
+    cursor: pointer;
+}
+.footerDetalleVista2
+{
+    background: url(../images/footer.png) center no-repeat;
+    width:100%;
+    height:100%;
+}

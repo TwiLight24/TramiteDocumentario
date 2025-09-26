@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="CapaWeb.Principal" ClientIDMode="Static" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   
+    <title>.:: <%= nombreSistema%> ::.</title>        
+    <link rel="stylesheet" href="styles/project.css" type="text/css" />
+    <link href="styles/ajax_calendar.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+
+    <script language="javascript" type="text/javascript">
+        function ChangePassword() {
+            var strPagina = '<%# ServerRootPath %>';
+            window.open(strPagina + '/pages/Password.aspx', "WINDOWS", "width=330, height=165, status=no, toolbar=no, scrollbars=no, menubar=no, location=no, directories=no, resizable=no, copyhistory=no");
+        }        
+    </script>
+    <script language="javascript" type="text/javascript">
+        history.forward(1) // Evita retroceder
+    </script> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+
+<body>
+
+    <form id="MainForm" runat="server" enctype="multipart/form-data" style="height: 100%; width: 100%;">
+    <ajax:ToolkitScriptManager ID="SiteScriptManager" runat="server" CombineScripts="True"
+        ScriptMode="Release" LoadScriptsBeforeUI="False" EnablePageMethods="true" EnablePartialRendering="true"
+        EnableScriptGlobalization="True" />
+    <asp:UpdatePanel runat="server" ID="MyMailUpdatePanel" ChildrenAsTriggers="true"
+        UpdateMode="Conditional">
+        <ContentTemplate>
+            <div id="mainWrapper" class="emailClientBody">
+                <div id="logoBGDIV">
+                    <div id="logo" class="logoMain">
+                        <table id="header-master" border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td style="width: 20%;">
+                                    <asp:Image ID="imgbLogo" runat="server" ImageUrl="~/images/myMailLogo.png" />
+                                </td>
+                                <td>
+                                    <asp:Label ID="Label1" runat="server" Text="Bienvenido(a) : " Font-Size="11px" Font-Names="Arial" />
+                                    <asp:Label ID="lblUser" runat="server" Text="Jhait Carhuaz Chamorro" Font-Bold="True"
+                                        Font-Size="12px" Font-Names="Arial"></asp:Label>
+                                </td>
+                                <td>
+                                </td>
+                                <td style="width: 3%;">
+                                    <asp:ImageButton ID="imgbMyAccount" runat="server" Visible="false" ImageUrl="~/images/buttons/my-account.png"
+                                        ToolTip="Mis Datos" CausesValidation="False" />
+                                </td>
+                                <td style="width: 3%; z-index: 1;">
+                                    <asp:ImageButton ID="ImgbMyTimesheet" runat="server" ImageUrl="~/images/buttons/blue_web_mi_time.png"
+                                        ToolTip="Mi Timesheet" CausesValidation="False" />
+                                </td>
+                                <td style="width: 3%;">
+                                    <asp:ImageButton ID="imgbAgregarPassword" runat="server" ImageUrl="~/images/buttons/password.png"
+                                        ToolTip="Cambiar Contraseña"  />
+                                </td>
+                                <td style="width: 5%; z-index: 1;">
+                                    <asp:ImageButton ID="imgbLogOut" runat="server" ImageUrl="~/images/buttons/sign-out.png"
+                                        ToolTip="Cerrar Sesión" onclick="imgbLogOut_Click" CausesValidation="False" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="navbarBGDIV">
+                    <div id="logo2" class="logoMain2">
+                        <asp:Image ID="imgbLogo2" runat="server" ImageUrl="~/images/myMailLogo22.jpg" />
+                    </div>
+                    <div id="navToolBar">
+                        <ul>
+                            <li>
+                                <asp:ImageButton ID="imgbInicio" runat="server" CausesValidation="false" ImageUrl="~/images/buttons/blue_web_home.png"
+                                    ToolTip="Bandeja Inicio" onclick="imgbInicio_Click" Width="34%" />
+                            </li>
+                            <li>
+                                <asp:ImageButton ID="imgbConfig" runat="server" CausesValidation="false" ImageUrl="~/images/buttons/blue_web_admin.png"
+                                    ToolTip="Manejo de Documentos" onclick="imgbConfig_Click" Width="34%" />
+                            </li>
+        
+                            <li>
+                                <asp:ImageButton ID="imgbAdmin" runat="server" CausesValidation="false" ImageUrl="~/images/buttons/blue_web_setup.png"
+                                    ToolTip="Herramientas" onclick="imgbAdmin_Click" Width="34%" />
+                            </li>
+                                                <li>
+                                <asp:ImageButton ID="imgbMant" runat="server" CausesValidation="false" ImageUrl="~/images/buttons/blue_web_maint.png"
+                                    ToolTip="Administración" onclick="imgbMant_Click" Width="34%" />
+                            </li>
+                            <li>
+                                <asp:ImageButton ID="imgbCons" runat="server" CausesValidation="false" ImageUrl="~/images/buttons/blue_web_report.png"
+                                    ToolTip="Reportes"  onclick="imgbCons_Click" Width="34%" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="rightCorner">
+                        <asp:Image ID="imgbCorner" runat="server" ImageUrl="~/images/rightCorner.jpg" />
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+                <br style="clear: both;" />
+            </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+       
+        <div id="items" class="projectClientMain">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

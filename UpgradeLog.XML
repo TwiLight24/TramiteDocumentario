@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TramiteDocumentario">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\ccastaneda\Desktop\TramiteDocumentario\TramiteDocumentario.sln">
+</Property><Property Name="Date" Value="martes, 25 de enero de 2022">
+</Property><Property Name="Time" Value="17:18">
+</Property></Properties><Event ErrorLevel="4" Project="CapaWeb" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Advertencia: este proyecto requiere Crystal Reports, que ya no se incluye con Visual Studio. Haga clic aquí para obtener más información.">
+</Event><Event ErrorLevel="0" Project="CapaWeb" Source="CapaWeb\CapaWeb.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="CapaWeb" Source="CapaWeb\CapaWeb.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CapaDatos" Source="CapaDatos\CapaDatos.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="CapaDatos" Source="CapaDatos\CapaDatos.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="CapaNegocio" Source="CapaNegocio\CapaNegocio.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="CapaNegocio" Source="CapaNegocio\CapaNegocio.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="CapaEntidad" Source="CapaEntidad\CapaEntidad.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="CapaEntidad" Source="CapaEntidad\CapaEntidad.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="Intellisoft.Project.Comun.Dao" Source="Intellisoft.Project.Comun.Dao\Intellisoft.Project.Comun.Dao.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="Intellisoft.Project.Comun.Dao" Source="Intellisoft.Project.Comun.Dao\Intellisoft.Project.Comun.Dao.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="Intellisoft.Project.Comun.Entidad" Source="Intellisoft.Project.Comun.Entidad\Intellisoft.Project.Comun.Entidad.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="Intellisoft.Project.Comun.Entidad" Source="Intellisoft.Project.Comun.Entidad\Intellisoft.Project.Comun.Entidad.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="Intellisoft.Project.Util" Source="Intellisoft.Project.Util\Intellisoft.Project.Util.csproj" Description="El archivo de proyecto no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="Intellisoft.Project.Util" Source="Intellisoft.Project.Util\Intellisoft.Project.Util.csproj" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="" Source="TramiteDocumentario.sln" Description="El archivo de soluciones no requiere conversión.">
+</Event><Event ErrorLevel="3" Project="" Source="TramiteDocumentario.sln" Description="No requiere conversión">
+</Event><Event ErrorLevel="0" Project="CapaWeb" Source="CapaWeb\CapaWeb.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>
